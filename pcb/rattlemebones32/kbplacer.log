@@ -1,0 +1,1241 @@
+[kbplacer_plugin_action.py:77]: Plugin executed with KiCad version: 7.0.8
+[kbplacer_plugin_action.py:78]: Plugin executed with python version: '3.9.13 (v3.9.13:6de2ca5339, May 17 2022, 11:37:23) \n[Clang 13.0.0 (clang-1300.0.29.30)]'
+[kbplacer_dialog.py:511]: Language: en
+[kbplacer_plugin_action.py:94]: GUI state: {"switch_section": {"annotation": "SW{}", "layout_path": "/Users/chriz/Downloads/data(8).json", "x_distance": "15", "y_distance": "15"}, "switch_diodes_section": {"enable": true, "route_switches_with_diodes": true, "element_info": {"annotation_format": "D{}", "position_option": "Default", "position": {"relative_position": [5.08, 3.03], "orientation": 90.0, "side": "BACK"}, "template_path": ""}}, "additional_elements": {"elements_info": [{"annotation_format": "ST{}", "position_option": "Custom", "position": {"relative_position": [0.0, 0.0], "orientation": 0.0, "side": "FRONT"}, "template_path": ""}]}, "misc_section": {"route_rows_and_columns": true, "template_path": ""}}
+[key_placer.py:64]: Set key 1U distance: 15000000/15000000
+[key_placer.py:426]: Diode info: ElementInfo(annotation_format='D{}', position_option=<PositionOption.DEFAULT: 'Default'>, position=ElementPosition(relative_position=Point(x=5.08, y=3.03), orientation=90.0, side=<Side.BACK: True>), template_path='')
+[key_placer.py:468]: User layout: {'matrix_pinky_home': {'x': 7.7645714, 'y': 28.9777748, 'r': -15, 'meta': {'stagger': 0, 'spread': 15, 'splay': 0, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 15, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'pinky_home', 'name': 'matrix_pinky_home', 'zone': {'key': {'padding': '1px', 'spread': '1px'}, 'columns': {'pinky': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'pinky'}, 'ring': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 0}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': 0}, 'rows': {}, 'name': 'index'}, 'inner': {'key': {'stagger': 0}, 'rows': {}, 'name': 'inner'}}, 'rows': {'mod': {}, 'bottom': {}, 'home': {}, 'top': {}}, 'name': 'matrix'}, 'col': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'pinky'}, 'row': 'home', 'bind': [10, 10, 10, 0], 'mirrored': False}}, 'matrix_pinky_top': {'x': 11.646857, 'y': 43.4666622, 'r': -15, 'meta': {'stagger': 0, 'spread': 15, 'splay': 0, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 15, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'pinky_top', 'name': 'matrix_pinky_top', 'zone': {'key': {'padding': '1px', 'spread': '1px'}, 'columns': {'pinky': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'pinky'}, 'ring': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 0}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': 0}, 'rows': {}, 'name': 'index'}, 'inner': {'key': {'stagger': 0}, 'rows': {}, 'name': 'inner'}}, 'rows': {'mod': {}, 'bottom': {}, 'home': {}, 'top': {}}, 'name': 'matrix'}, 'col': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'pinky'}, 'row': 'top', 'bind': [0, 10, 10, 0], 'mirrored': False}}, 'matrix_ring_home': {'x': 22.2534587, 'y': 25.0954891, 'r': -15, 'meta': {'stagger': 0, 'spread': 15, 'splay': 0, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 15, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'ring_home', 'name': 'matrix_ring_home', 'zone': {'key': {'padding': '1px', 'spread': '1px'}, 'columns': {'pinky': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'pinky'}, 'ring': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 0}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': 0}, 'rows': {}, 'name': 'index'}, 'inner': {'key': {'stagger': 0}, 'rows': {}, 'name': 'inner'}}, 'rows': {'mod': {}, 'bottom': {}, 'home': {}, 'top': {}}, 'name': 'matrix'}, 'col': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'ring'}, 'row': 'home', 'bind': [10, 10, 10, 10], 'mirrored': False}}, 'matrix_ring_top': {'x': 26.1357444, 'y': 39.5843765, 'r': -15, 'meta': {'stagger': 0, 'spread': 15, 'splay': 0, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 15, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'ring_top', 'name': 'matrix_ring_top', 'zone': {'key': {'padding': '1px', 'spread': '1px'}, 'columns': {'pinky': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'pinky'}, 'ring': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 0}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': 0}, 'rows': {}, 'name': 'index'}, 'inner': {'key': {'stagger': 0}, 'rows': {}, 'name': 'inner'}}, 'rows': {'mod': {}, 'bottom': {}, 'home': {}, 'top': {}}, 'name': 'matrix'}, 'col': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'ring'}, 'row': 'top', 'bind': [0, 10, 10, 10], 'mirrored': False}}, 'matrix_middle_mod': {'x': 28.9777748, 'y': -7.7645714, 'r': -15, 'meta': {'stagger': 0, 'spread': 15, 'splay': 0, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 15, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'middle_mod', 'name': 'matrix_middle_mod', 'zone': {'key': {'padding': '1px', 'spread': '1px'}, 'columns': {'pinky': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'pinky'}, 'ring': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 0}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': 0}, 'rows': {}, 'name': 'index'}, 'inner': {'key': {'stagger': 0}, 'rows': {}, 'name': 'inner'}}, 'rows': {'mod': {}, 'bottom': {}, 'home': {}, 'top': {}}, 'name': 'matrix'}, 'col': {'key': {'stagger': 0}, 'rows': {}, 'name': 'middle'}, 'row': 'mod', 'bind': [10, 10, 0, 10], 'mirrored': False}}, 'matrix_middle_bottom': {'x': 32.8600605, 'y': 6.724316, 'r': -15, 'meta': {'stagger': 0, 'spread': 15, 'splay': 0, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 15, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'middle_bottom', 'name': 'matrix_middle_bottom', 'zone': {'key': {'padding': '1px', 'spread': '1px'}, 'columns': {'pinky': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'pinky'}, 'ring': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 0}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': 0}, 'rows': {}, 'name': 'index'}, 'inner': {'key': {'stagger': 0}, 'rows': {}, 'name': 'inner'}}, 'rows': {'mod': {}, 'bottom': {}, 'home': {}, 'top': {}}, 'name': 'matrix'}, 'col': {'key': {'stagger': 0}, 'rows': {}, 'name': 'middle'}, 'row': 'bottom', 'bind': [10, 10, 10, 10], 'mirrored': False}}, 'matrix_middle_home': {'x': 36.7423461, 'y': 21.2132034, 'r': -15, 'meta': {'stagger': 0, 'spread': 15, 'splay': 0, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 15, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'middle_home', 'name': 'matrix_middle_home', 'zone': {'key': {'padding': '1px', 'spread': '1px'}, 'columns': {'pinky': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'pinky'}, 'ring': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 0}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': 0}, 'rows': {}, 'name': 'index'}, 'inner': {'key': {'stagger': 0}, 'rows': {}, 'name': 'inner'}}, 'rows': {'mod': {}, 'bottom': {}, 'home': {}, 'top': {}}, 'name': 'matrix'}, 'col': {'key': {'stagger': 0}, 'rows': {}, 'name': 'middle'}, 'row': 'home', 'bind': [10, 10, 10, 10], 'mirrored': False}}, 'matrix_middle_top': {'x': 40.6246318, 'y': 35.7020908, 'r': -15, 'meta': {'stagger': 0, 'spread': 15, 'splay': 0, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 15, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'middle_top', 'name': 'matrix_middle_top', 'zone': {'key': {'padding': '1px', 'spread': '1px'}, 'columns': {'pinky': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'pinky'}, 'ring': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 0}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': 0}, 'rows': {}, 'name': 'index'}, 'inner': {'key': {'stagger': 0}, 'rows': {}, 'name': 'inner'}}, 'rows': {'mod': {}, 'bottom': {}, 'home': {}, 'top': {}}, 'name': 'matrix'}, 'col': {'key': {'stagger': 0}, 'rows': {}, 'name': 'middle'}, 'row': 'top', 'bind': [0, 10, 10, 10], 'mirrored': False}}, 'matrix_index_mod': {'x': 43.4666622, 'y': -11.646857, 'r': -15, 'meta': {'stagger': 0, 'spread': 15, 'splay': 0, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 15, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'index_mod', 'name': 'matrix_index_mod', 'zone': {'key': {'padding': '1px', 'spread': '1px'}, 'columns': {'pinky': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'pinky'}, 'ring': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 0}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': 0}, 'rows': {}, 'name': 'index'}, 'inner': {'key': {'stagger': 0}, 'rows': {}, 'name': 'inner'}}, 'rows': {'mod': {}, 'bottom': {}, 'home': {}, 'top': {}}, 'name': 'matrix'}, 'col': {'key': {'stagger': 0}, 'rows': {}, 'name': 'index'}, 'row': 'mod', 'bind': [10, 10, 0, 10], 'mirrored': False}}, 'matrix_index_bottom': {'x': 47.3489479, 'y': 2.8420304, 'r': -15, 'meta': {'stagger': 0, 'spread': 15, 'splay': 0, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 15, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'index_bottom', 'name': 'matrix_index_bottom', 'zone': {'key': {'padding': '1px', 'spread': '1px'}, 'columns': {'pinky': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'pinky'}, 'ring': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 0}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': 0}, 'rows': {}, 'name': 'index'}, 'inner': {'key': {'stagger': 0}, 'rows': {}, 'name': 'inner'}}, 'rows': {'mod': {}, 'bottom': {}, 'home': {}, 'top': {}}, 'name': 'matrix'}, 'col': {'key': {'stagger': 0}, 'rows': {}, 'name': 'index'}, 'row': 'bottom', 'bind': [10, 10, 10, 10], 'mirrored': False}}, 'matrix_index_home': {'x': 51.2312335, 'y': 17.3309178, 'r': -15, 'meta': {'stagger': 0, 'spread': 15, 'splay': 0, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 15, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'index_home', 'name': 'matrix_index_home', 'zone': {'key': {'padding': '1px', 'spread': '1px'}, 'columns': {'pinky': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'pinky'}, 'ring': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 0}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': 0}, 'rows': {}, 'name': 'index'}, 'inner': {'key': {'stagger': 0}, 'rows': {}, 'name': 'inner'}}, 'rows': {'mod': {}, 'bottom': {}, 'home': {}, 'top': {}}, 'name': 'matrix'}, 'col': {'key': {'stagger': 0}, 'rows': {}, 'name': 'index'}, 'row': 'home', 'bind': [10, 10, 10, 10], 'mirrored': False}}, 'matrix_index_top': {'x': 55.1135192, 'y': 31.8198052, 'r': -15, 'meta': {'stagger': 0, 'spread': 15, 'splay': 0, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 15, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'index_top', 'name': 'matrix_index_top', 'zone': {'key': {'padding': '1px', 'spread': '1px'}, 'columns': {'pinky': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'pinky'}, 'ring': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 0}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': 0}, 'rows': {}, 'name': 'index'}, 'inner': {'key': {'stagger': 0}, 'rows': {}, 'name': 'inner'}}, 'rows': {'mod': {}, 'bottom': {}, 'home': {}, 'top': {}}, 'name': 'matrix'}, 'col': {'key': {'stagger': 0}, 'rows': {}, 'name': 'index'}, 'row': 'top', 'bind': [0, 10, 10, 10], 'mirrored': False}}, 'matrix_inner_mod': {'x': 57.9555496, 'y': -15.5291427, 'r': -15, 'meta': {'stagger': 0, 'spread': 15, 'splay': 0, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 15, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'inner_mod', 'name': 'matrix_inner_mod', 'zone': {'key': {'padding': '1px', 'spread': '1px'}, 'columns': {'pinky': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'pinky'}, 'ring': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 0}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': 0}, 'rows': {}, 'name': 'index'}, 'inner': {'key': {'stagger': 0}, 'rows': {}, 'name': 'inner'}}, 'rows': {'mod': {}, 'bottom': {}, 'home': {}, 'top': {}}, 'name': 'matrix'}, 'col': {'key': {'stagger': 0}, 'rows': {}, 'name': 'inner'}, 'row': 'mod', 'bind': [10, 0, 0, 10], 'mirrored': False}}, 'matrix_inner_bottom': {'x': 61.8378353, 'y': -1.0402553, 'r': -15, 'meta': {'stagger': 0, 'spread': 15, 'splay': 0, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 15, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'inner_bottom', 'name': 'matrix_inner_bottom', 'zone': {'key': {'padding': '1px', 'spread': '1px'}, 'columns': {'pinky': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'pinky'}, 'ring': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 0}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': 0}, 'rows': {}, 'name': 'index'}, 'inner': {'key': {'stagger': 0}, 'rows': {}, 'name': 'inner'}}, 'rows': {'mod': {}, 'bottom': {}, 'home': {}, 'top': {}}, 'name': 'matrix'}, 'col': {'key': {'stagger': 0}, 'rows': {}, 'name': 'inner'}, 'row': 'bottom', 'bind': [10, 0, 10, 10], 'mirrored': False}}, 'matrix_inner_home': {'x': 65.7201209, 'y': 13.4486321, 'r': -15, 'meta': {'stagger': 0, 'spread': 15, 'splay': 0, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 15, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'inner_home', 'name': 'matrix_inner_home', 'zone': {'key': {'padding': '1px', 'spread': '1px'}, 'columns': {'pinky': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'pinky'}, 'ring': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 0}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': 0}, 'rows': {}, 'name': 'index'}, 'inner': {'key': {'stagger': 0}, 'rows': {}, 'name': 'inner'}}, 'rows': {'mod': {}, 'bottom': {}, 'home': {}, 'top': {}}, 'name': 'matrix'}, 'col': {'key': {'stagger': 0}, 'rows': {}, 'name': 'inner'}, 'row': 'home', 'bind': [10, 0, 10, 10], 'mirrored': False}}, 'matrix_inner_top': {'x': 69.6024066, 'y': 27.9375195, 'r': -15, 'meta': {'stagger': 0, 'spread': 15, 'splay': 0, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 15, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'inner_top', 'name': 'matrix_inner_top', 'zone': {'key': {'padding': '1px', 'spread': '1px'}, 'columns': {'pinky': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'pinky'}, 'ring': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 0}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': 0}, 'rows': {}, 'name': 'index'}, 'inner': {'key': {'stagger': 0}, 'rows': {}, 'name': 'inner'}}, 'rows': {'mod': {}, 'bottom': {}, 'home': {}, 'top': {}}, 'name': 'matrix'}, 'col': {'key': {'stagger': 0}, 'rows': {}, 'name': 'inner'}, 'row': 'top', 'bind': [0, 0, 10, 10], 'mirrored': False}}, 'mirror_matrix_pinky_home': {'x': 161.6756704, 'y': 28.9777748, 'r': 15, 'meta': {'stagger': 0, 'spread': 15, 'splay': 0, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 15, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'mirror_pinky_home', 'name': 'mirror_matrix_pinky_home', 'zone': {'key': {'padding': '1px', 'spread': '1px'}, 'columns': {'pinky': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'pinky'}, 'ring': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 0}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': 0}, 'rows': {}, 'name': 'index'}, 'inner': {'key': {'stagger': 0}, 'rows': {}, 'name': 'inner'}}, 'rows': {'mod': {}, 'bottom': {}, 'home': {}, 'top': {}}, 'name': 'matrix'}, 'col': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'pinky'}, 'row': 'home', 'bind': [10, 10, 10, 0], 'mirrored': True}}, 'mirror_matrix_pinky_top': {'x': 157.79338479999998, 'y': 43.4666622, 'r': 15, 'meta': {'stagger': 0, 'spread': 15, 'splay': 0, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 15, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'mirror_pinky_top', 'name': 'mirror_matrix_pinky_top', 'zone': {'key': {'padding': '1px', 'spread': '1px'}, 'columns': {'pinky': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'pinky'}, 'ring': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 0}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': 0}, 'rows': {}, 'name': 'index'}, 'inner': {'key': {'stagger': 0}, 'rows': {}, 'name': 'inner'}}, 'rows': {'mod': {}, 'bottom': {}, 'home': {}, 'top': {}}, 'name': 'matrix'}, 'col': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'pinky'}, 'row': 'top', 'bind': [0, 10, 10, 0], 'mirrored': True}}, 'mirror_matrix_ring_home': {'x': 147.18678309999999, 'y': 25.0954891, 'r': 15, 'meta': {'stagger': 0, 'spread': 15, 'splay': 0, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 15, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'mirror_ring_home', 'name': 'mirror_matrix_ring_home', 'zone': {'key': {'padding': '1px', 'spread': '1px'}, 'columns': {'pinky': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'pinky'}, 'ring': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 0}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': 0}, 'rows': {}, 'name': 'index'}, 'inner': {'key': {'stagger': 0}, 'rows': {}, 'name': 'inner'}}, 'rows': {'mod': {}, 'bottom': {}, 'home': {}, 'top': {}}, 'name': 'matrix'}, 'col': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'ring'}, 'row': 'home', 'bind': [10, 10, 10, 10], 'mirrored': True}}, 'mirror_matrix_ring_top': {'x': 143.3044974, 'y': 39.5843765, 'r': 15, 'meta': {'stagger': 0, 'spread': 15, 'splay': 0, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 15, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'mirror_ring_top', 'name': 'mirror_matrix_ring_top', 'zone': {'key': {'padding': '1px', 'spread': '1px'}, 'columns': {'pinky': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'pinky'}, 'ring': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 0}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': 0}, 'rows': {}, 'name': 'index'}, 'inner': {'key': {'stagger': 0}, 'rows': {}, 'name': 'inner'}}, 'rows': {'mod': {}, 'bottom': {}, 'home': {}, 'top': {}}, 'name': 'matrix'}, 'col': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'ring'}, 'row': 'top', 'bind': [0, 10, 10, 10], 'mirrored': True}}, 'mirror_matrix_middle_mod': {'x': 140.462467, 'y': -7.7645714, 'r': 15, 'meta': {'stagger': 0, 'spread': 15, 'splay': 0, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 15, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'mirror_middle_mod', 'name': 'mirror_matrix_middle_mod', 'zone': {'key': {'padding': '1px', 'spread': '1px'}, 'columns': {'pinky': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'pinky'}, 'ring': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 0}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': 0}, 'rows': {}, 'name': 'index'}, 'inner': {'key': {'stagger': 0}, 'rows': {}, 'name': 'inner'}}, 'rows': {'mod': {}, 'bottom': {}, 'home': {}, 'top': {}}, 'name': 'matrix'}, 'col': {'key': {'stagger': 0}, 'rows': {}, 'name': 'middle'}, 'row': 'mod', 'bind': [10, 10, 0, 10], 'mirrored': True}}, 'mirror_matrix_middle_bottom': {'x': 136.5801813, 'y': 6.724316, 'r': 15, 'meta': {'stagger': 0, 'spread': 15, 'splay': 0, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 15, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'mirror_middle_bottom', 'name': 'mirror_matrix_middle_bottom', 'zone': {'key': {'padding': '1px', 'spread': '1px'}, 'columns': {'pinky': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'pinky'}, 'ring': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 0}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': 0}, 'rows': {}, 'name': 'index'}, 'inner': {'key': {'stagger': 0}, 'rows': {}, 'name': 'inner'}}, 'rows': {'mod': {}, 'bottom': {}, 'home': {}, 'top': {}}, 'name': 'matrix'}, 'col': {'key': {'stagger': 0}, 'rows': {}, 'name': 'middle'}, 'row': 'bottom', 'bind': [10, 10, 10, 10], 'mirrored': True}}, 'mirror_matrix_middle_home': {'x': 132.6978957, 'y': 21.2132034, 'r': 15, 'meta': {'stagger': 0, 'spread': 15, 'splay': 0, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 15, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'mirror_middle_home', 'name': 'mirror_matrix_middle_home', 'zone': {'key': {'padding': '1px', 'spread': '1px'}, 'columns': {'pinky': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'pinky'}, 'ring': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 0}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': 0}, 'rows': {}, 'name': 'index'}, 'inner': {'key': {'stagger': 0}, 'rows': {}, 'name': 'inner'}}, 'rows': {'mod': {}, 'bottom': {}, 'home': {}, 'top': {}}, 'name': 'matrix'}, 'col': {'key': {'stagger': 0}, 'rows': {}, 'name': 'middle'}, 'row': 'home', 'bind': [10, 10, 10, 10], 'mirrored': True}}, 'mirror_matrix_middle_top': {'x': 128.81561, 'y': 35.7020908, 'r': 15, 'meta': {'stagger': 0, 'spread': 15, 'splay': 0, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 15, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'mirror_middle_top', 'name': 'mirror_matrix_middle_top', 'zone': {'key': {'padding': '1px', 'spread': '1px'}, 'columns': {'pinky': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'pinky'}, 'ring': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 0}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': 0}, 'rows': {}, 'name': 'index'}, 'inner': {'key': {'stagger': 0}, 'rows': {}, 'name': 'inner'}}, 'rows': {'mod': {}, 'bottom': {}, 'home': {}, 'top': {}}, 'name': 'matrix'}, 'col': {'key': {'stagger': 0}, 'rows': {}, 'name': 'middle'}, 'row': 'top', 'bind': [0, 10, 10, 10], 'mirrored': True}}, 'mirror_matrix_index_mod': {'x': 125.9735796, 'y': -11.646857, 'r': 15, 'meta': {'stagger': 0, 'spread': 15, 'splay': 0, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 15, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'mirror_index_mod', 'name': 'mirror_matrix_index_mod', 'zone': {'key': {'padding': '1px', 'spread': '1px'}, 'columns': {'pinky': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'pinky'}, 'ring': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 0}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': 0}, 'rows': {}, 'name': 'index'}, 'inner': {'key': {'stagger': 0}, 'rows': {}, 'name': 'inner'}}, 'rows': {'mod': {}, 'bottom': {}, 'home': {}, 'top': {}}, 'name': 'matrix'}, 'col': {'key': {'stagger': 0}, 'rows': {}, 'name': 'index'}, 'row': 'mod', 'bind': [10, 10, 0, 10], 'mirrored': True}}, 'mirror_matrix_index_bottom': {'x': 122.0912939, 'y': 2.8420304, 'r': 15, 'meta': {'stagger': 0, 'spread': 15, 'splay': 0, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 15, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'mirror_index_bottom', 'name': 'mirror_matrix_index_bottom', 'zone': {'key': {'padding': '1px', 'spread': '1px'}, 'columns': {'pinky': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'pinky'}, 'ring': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 0}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': 0}, 'rows': {}, 'name': 'index'}, 'inner': {'key': {'stagger': 0}, 'rows': {}, 'name': 'inner'}}, 'rows': {'mod': {}, 'bottom': {}, 'home': {}, 'top': {}}, 'name': 'matrix'}, 'col': {'key': {'stagger': 0}, 'rows': {}, 'name': 'index'}, 'row': 'bottom', 'bind': [10, 10, 10, 10], 'mirrored': True}}, 'mirror_matrix_index_home': {'x': 118.2090083, 'y': 17.3309178, 'r': 15, 'meta': {'stagger': 0, 'spread': 15, 'splay': 0, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 15, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'mirror_index_home', 'name': 'mirror_matrix_index_home', 'zone': {'key': {'padding': '1px', 'spread': '1px'}, 'columns': {'pinky': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'pinky'}, 'ring': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 0}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': 0}, 'rows': {}, 'name': 'index'}, 'inner': {'key': {'stagger': 0}, 'rows': {}, 'name': 'inner'}}, 'rows': {'mod': {}, 'bottom': {}, 'home': {}, 'top': {}}, 'name': 'matrix'}, 'col': {'key': {'stagger': 0}, 'rows': {}, 'name': 'index'}, 'row': 'home', 'bind': [10, 10, 10, 10], 'mirrored': True}}, 'mirror_matrix_index_top': {'x': 114.3267226, 'y': 31.8198052, 'r': 15, 'meta': {'stagger': 0, 'spread': 15, 'splay': 0, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 15, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'mirror_index_top', 'name': 'mirror_matrix_index_top', 'zone': {'key': {'padding': '1px', 'spread': '1px'}, 'columns': {'pinky': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'pinky'}, 'ring': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 0}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': 0}, 'rows': {}, 'name': 'index'}, 'inner': {'key': {'stagger': 0}, 'rows': {}, 'name': 'inner'}}, 'rows': {'mod': {}, 'bottom': {}, 'home': {}, 'top': {}}, 'name': 'matrix'}, 'col': {'key': {'stagger': 0}, 'rows': {}, 'name': 'index'}, 'row': 'top', 'bind': [0, 10, 10, 10], 'mirrored': True}}, 'mirror_matrix_inner_mod': {'x': 111.4846922, 'y': -15.5291427, 'r': 15, 'meta': {'stagger': 0, 'spread': 15, 'splay': 0, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 15, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'mirror_inner_mod', 'name': 'mirror_matrix_inner_mod', 'zone': {'key': {'padding': '1px', 'spread': '1px'}, 'columns': {'pinky': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'pinky'}, 'ring': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 0}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': 0}, 'rows': {}, 'name': 'index'}, 'inner': {'key': {'stagger': 0}, 'rows': {}, 'name': 'inner'}}, 'rows': {'mod': {}, 'bottom': {}, 'home': {}, 'top': {}}, 'name': 'matrix'}, 'col': {'key': {'stagger': 0}, 'rows': {}, 'name': 'inner'}, 'row': 'mod', 'bind': [10, 0, 0, 10], 'mirrored': True}}, 'mirror_matrix_inner_bottom': {'x': 107.6024065, 'y': -1.0402553, 'r': 15, 'meta': {'stagger': 0, 'spread': 15, 'splay': 0, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 15, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'mirror_inner_bottom', 'name': 'mirror_matrix_inner_bottom', 'zone': {'key': {'padding': '1px', 'spread': '1px'}, 'columns': {'pinky': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'pinky'}, 'ring': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 0}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': 0}, 'rows': {}, 'name': 'index'}, 'inner': {'key': {'stagger': 0}, 'rows': {}, 'name': 'inner'}}, 'rows': {'mod': {}, 'bottom': {}, 'home': {}, 'top': {}}, 'name': 'matrix'}, 'col': {'key': {'stagger': 0}, 'rows': {}, 'name': 'inner'}, 'row': 'bottom', 'bind': [10, 0, 10, 10], 'mirrored': True}}, 'mirror_matrix_inner_home': {'x': 103.7201209, 'y': 13.4486321, 'r': 15, 'meta': {'stagger': 0, 'spread': 15, 'splay': 0, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 15, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'mirror_inner_home', 'name': 'mirror_matrix_inner_home', 'zone': {'key': {'padding': '1px', 'spread': '1px'}, 'columns': {'pinky': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'pinky'}, 'ring': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 0}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': 0}, 'rows': {}, 'name': 'index'}, 'inner': {'key': {'stagger': 0}, 'rows': {}, 'name': 'inner'}}, 'rows': {'mod': {}, 'bottom': {}, 'home': {}, 'top': {}}, 'name': 'matrix'}, 'col': {'key': {'stagger': 0}, 'rows': {}, 'name': 'inner'}, 'row': 'home', 'bind': [10, 0, 10, 10], 'mirrored': True}}, 'mirror_matrix_inner_top': {'x': 99.8378352, 'y': 27.9375195, 'r': 15, 'meta': {'stagger': 0, 'spread': 15, 'splay': 0, 'origin': [0, 0], 'orient': 0, 'shift': [0, 0], 'rotate': 0, 'width': 18, 'height': 18, 'padding': 15, 'autobind': 10, 'skip': False, 'asym': 'both', 'colrow': 'mirror_inner_top', 'name': 'mirror_matrix_inner_top', 'zone': {'key': {'padding': '1px', 'spread': '1px'}, 'columns': {'pinky': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'pinky'}, 'ring': {'rows': {'bottom': {'skip': True}, 'mod': {'skip': True}}, 'key': {}, 'name': 'ring'}, 'middle': {'key': {'stagger': 0}, 'rows': {}, 'name': 'middle'}, 'index': {'key': {'stagger': 0}, 'rows': {}, 'name': 'index'}, 'inner': {'key': {'stagger': 0}, 'rows': {}, 'name': 'inner'}}, 'rows': {'mod': {}, 'bottom': {}, 'home': {}, 'top': {}}, 'name': 'matrix'}, 'col': {'key': {'stagger': 0}, 'rows': {}, 'name': 'inner'}, 'row': 'top', 'bind': [0, 0, 10, 10], 'mirrored': True}}}
+[board_modifier.py:62]: Searching for SW1 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting SW1 footprint position: (37882285, 34000000)
+[board_modifier.py:62]: Searching for SW2 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting SW2 footprint position: (184028813, 34000000)
+[board_modifier.py:62]: Searching for SW3 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting SW3 footprint position: (52371173, 37882285)
+[board_modifier.py:62]: Searching for SW4 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting SW4 footprint position: (169539926, 37882285)
+[board_modifier.py:62]: Searching for SW5 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting SW5 footprint position: (66860060, 41764571)
+[board_modifier.py:62]: Searching for SW6 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting SW6 footprint position: (155051038, 41764571)
+[board_modifier.py:62]: Searching for SW7 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting SW7 footprint position: (81348947, 45646857)
+[board_modifier.py:62]: Searching for SW8 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting SW8 footprint position: (140562151, 45646857)
+[board_modifier.py:62]: Searching for SW9 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting SW9 footprint position: (34000000, 48488887)
+[board_modifier.py:62]: Searching for SW10 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting SW10 footprint position: (187911099, 48488887)
+[board_modifier.py:62]: Searching for SW11 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting SW11 footprint position: (95837835, 49529142)
+[board_modifier.py:62]: Searching for SW12 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting SW12 footprint position: (126073263, 49529142)
+[board_modifier.py:62]: Searching for SW13 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting SW13 footprint position: (48488887, 52371173)
+[board_modifier.py:62]: Searching for SW14 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting SW14 footprint position: (173422211, 52371173)
+[board_modifier.py:62]: Searching for SW15 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting SW15 footprint position: (62977774, 56253458)
+[board_modifier.py:62]: Searching for SW16 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting SW16 footprint position: (158933324, 56253458)
+[board_modifier.py:62]: Searching for SW17 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting SW17 footprint position: (77466662, 60135744)
+[board_modifier.py:62]: Searching for SW18 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting SW18 footprint position: (144444436, 60135744)
+[board_modifier.py:62]: Searching for SW19 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting SW19 footprint position: (91955549, 64018030)
+[board_modifier.py:62]: Searching for SW20 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting SW20 footprint position: (129955549, 64018030)
+[board_modifier.py:62]: Searching for SW21 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting SW21 footprint position: (59095489, 70742346)
+[board_modifier.py:62]: Searching for SW22 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting SW22 footprint position: (162815609, 70742346)
+[board_modifier.py:62]: Searching for SW23 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting SW23 footprint position: (73584376, 74624631)
+[board_modifier.py:62]: Searching for SW24 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting SW24 footprint position: (148326722, 74624631)
+[board_modifier.py:62]: Searching for SW25 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting SW25 footprint position: (88073263, 78506917)
+[board_modifier.py:62]: Searching for SW26 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting SW26 footprint position: (133837835, 78506917)
+[board_modifier.py:62]: Searching for SW27 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting SW27 footprint position: (55213203, 85231233)
+[board_modifier.py:62]: Searching for SW28 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting SW28 footprint position: (166697895, 85231233)
+[board_modifier.py:62]: Searching for SW29 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting SW29 footprint position: (69702090, 89113519)
+[board_modifier.py:62]: Searching for SW30 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting SW30 footprint position: (152209008, 89113519)
+[board_modifier.py:62]: Searching for SW31 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting SW31 footprint position: (84190978, 92995804)
+[board_modifier.py:62]: Searching for SW32 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting SW32 footprint position: (137720120, 92995804)
+[board_modifier.py:95]: Getting SW1 footprint position: (37882285, 34000000)
+[board_modifier.py:62]: Searching for D1 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting D1 footprint position: (42004966, 38241556)
+[board_modifier.py:95]: Getting D1 footprint position: (42004966, 38241556)
+[board_modifier.py:62]: Searching for ST1 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting SW2 footprint position: (184028813, 34000000)
+[board_modifier.py:62]: Searching for D2 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting D2 footprint position: (189719937, 35611954)
+[board_modifier.py:95]: Getting D2 footprint position: (189719937, 35611954)
+[board_modifier.py:62]: Searching for ST2 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting SW3 footprint position: (52371173, 37882285)
+[board_modifier.py:62]: Searching for D3 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting D3 footprint position: (56493854, 42123841)
+[board_modifier.py:95]: Getting D3 footprint position: (56493854, 42123841)
+[board_modifier.py:62]: Searching for ST3 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting SW4 footprint position: (169539926, 37882285)
+[board_modifier.py:62]: Searching for D4 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting D4 footprint position: (175231050, 39494239)
+[board_modifier.py:95]: Getting D4 footprint position: (175231050, 39494239)
+[board_modifier.py:62]: Searching for ST4 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting SW5 footprint position: (66860060, 41764571)
+[board_modifier.py:62]: Searching for D5 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting D5 footprint position: (70982741, 46006127)
+[board_modifier.py:95]: Getting D5 footprint position: (70982741, 46006127)
+[board_modifier.py:62]: Searching for ST5 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting SW6 footprint position: (155051038, 41764571)
+[board_modifier.py:62]: Searching for D6 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting D6 footprint position: (160742162, 43376525)
+[board_modifier.py:95]: Getting D6 footprint position: (160742162, 43376525)
+[board_modifier.py:62]: Searching for ST6 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting SW7 footprint position: (81348947, 45646857)
+[board_modifier.py:62]: Searching for D7 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting D7 footprint position: (85471628, 49888413)
+[board_modifier.py:95]: Getting D7 footprint position: (85471628, 49888413)
+[board_modifier.py:62]: Searching for ST7 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting SW8 footprint position: (140562151, 45646857)
+[board_modifier.py:62]: Searching for D8 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting D8 footprint position: (146253275, 47258811)
+[board_modifier.py:95]: Getting D8 footprint position: (146253275, 47258811)
+[board_modifier.py:62]: Searching for ST8 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting SW9 footprint position: (34000000, 48488887)
+[board_modifier.py:62]: Searching for D9 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting D9 footprint position: (38122681, 52730443)
+[board_modifier.py:95]: Getting D9 footprint position: (38122681, 52730443)
+[board_modifier.py:62]: Searching for ST9 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting SW10 footprint position: (187911099, 48488887)
+[board_modifier.py:62]: Searching for D10 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting D10 footprint position: (193602223, 50100841)
+[board_modifier.py:95]: Getting D10 footprint position: (193602223, 50100841)
+[board_modifier.py:62]: Searching for ST10 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting SW11 footprint position: (95837835, 49529142)
+[board_modifier.py:62]: Searching for D11 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting D11 footprint position: (99960516, 53770698)
+[board_modifier.py:95]: Getting D11 footprint position: (99960516, 53770698)
+[board_modifier.py:62]: Searching for ST11 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting SW12 footprint position: (126073263, 49529142)
+[board_modifier.py:62]: Searching for D12 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting D12 footprint position: (131764387, 51141096)
+[board_modifier.py:95]: Getting D12 footprint position: (131764387, 51141096)
+[board_modifier.py:62]: Searching for ST12 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting SW13 footprint position: (48488887, 52371173)
+[board_modifier.py:62]: Searching for D13 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting D13 footprint position: (52611568, 56612729)
+[board_modifier.py:95]: Getting D13 footprint position: (52611568, 56612729)
+[board_modifier.py:62]: Searching for ST13 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting SW14 footprint position: (173422211, 52371173)
+[board_modifier.py:62]: Searching for D14 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting D14 footprint position: (179113335, 53983127)
+[board_modifier.py:95]: Getting D14 footprint position: (179113335, 53983127)
+[board_modifier.py:62]: Searching for ST14 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting SW15 footprint position: (62977774, 56253458)
+[board_modifier.py:62]: Searching for D15 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting D15 footprint position: (67100455, 60495014)
+[board_modifier.py:95]: Getting D15 footprint position: (67100455, 60495014)
+[board_modifier.py:62]: Searching for ST15 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting SW16 footprint position: (158933324, 56253458)
+[board_modifier.py:62]: Searching for D16 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting D16 footprint position: (164624448, 57865412)
+[board_modifier.py:95]: Getting D16 footprint position: (164624448, 57865412)
+[board_modifier.py:62]: Searching for ST16 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting SW17 footprint position: (77466662, 60135744)
+[board_modifier.py:62]: Searching for D17 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting D17 footprint position: (81589343, 64377300)
+[board_modifier.py:95]: Getting D17 footprint position: (81589343, 64377300)
+[board_modifier.py:62]: Searching for ST17 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting SW18 footprint position: (144444436, 60135744)
+[board_modifier.py:62]: Searching for D18 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting D18 footprint position: (150135560, 61747698)
+[board_modifier.py:95]: Getting D18 footprint position: (150135560, 61747698)
+[board_modifier.py:62]: Searching for ST18 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting SW19 footprint position: (91955549, 64018030)
+[board_modifier.py:62]: Searching for D19 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting D19 footprint position: (96078230, 68259586)
+[board_modifier.py:95]: Getting D19 footprint position: (96078230, 68259586)
+[board_modifier.py:62]: Searching for ST19 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting SW20 footprint position: (129955549, 64018030)
+[board_modifier.py:62]: Searching for D20 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting D20 footprint position: (135646673, 65629984)
+[board_modifier.py:95]: Getting D20 footprint position: (135646673, 65629984)
+[board_modifier.py:62]: Searching for ST20 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting SW21 footprint position: (59095489, 70742346)
+[board_modifier.py:62]: Searching for D21 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting D21 footprint position: (63218170, 74983902)
+[board_modifier.py:95]: Getting D21 footprint position: (63218170, 74983902)
+[board_modifier.py:62]: Searching for ST21 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting SW22 footprint position: (162815609, 70742346)
+[board_modifier.py:62]: Searching for D22 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting D22 footprint position: (168506733, 72354300)
+[board_modifier.py:95]: Getting D22 footprint position: (168506733, 72354300)
+[board_modifier.py:62]: Searching for ST22 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting SW23 footprint position: (73584376, 74624631)
+[board_modifier.py:62]: Searching for D23 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting D23 footprint position: (77707057, 78866187)
+[board_modifier.py:95]: Getting D23 footprint position: (77707057, 78866187)
+[board_modifier.py:62]: Searching for ST23 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting SW24 footprint position: (148326722, 74624631)
+[board_modifier.py:62]: Searching for D24 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting D24 footprint position: (154017846, 76236585)
+[board_modifier.py:95]: Getting D24 footprint position: (154017846, 76236585)
+[board_modifier.py:62]: Searching for ST24 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting SW25 footprint position: (88073263, 78506917)
+[board_modifier.py:62]: Searching for D25 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting D25 footprint position: (92195944, 82748473)
+[board_modifier.py:95]: Getting D25 footprint position: (92195944, 82748473)
+[board_modifier.py:62]: Searching for ST25 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting SW26 footprint position: (133837835, 78506917)
+[board_modifier.py:62]: Searching for D26 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting D26 footprint position: (139528959, 80118871)
+[board_modifier.py:95]: Getting D26 footprint position: (139528959, 80118871)
+[board_modifier.py:62]: Searching for ST26 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting SW27 footprint position: (55213203, 85231233)
+[board_modifier.py:62]: Searching for D27 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting D27 footprint position: (59335884, 89472789)
+[board_modifier.py:95]: Getting D27 footprint position: (59335884, 89472789)
+[board_modifier.py:62]: Searching for ST27 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting SW28 footprint position: (166697895, 85231233)
+[board_modifier.py:62]: Searching for D28 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting D28 footprint position: (172389019, 86843187)
+[board_modifier.py:95]: Getting D28 footprint position: (172389019, 86843187)
+[board_modifier.py:62]: Searching for ST28 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting SW29 footprint position: (69702090, 89113519)
+[board_modifier.py:62]: Searching for D29 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting D29 footprint position: (73824771, 93355075)
+[board_modifier.py:95]: Getting D29 footprint position: (73824771, 93355075)
+[board_modifier.py:62]: Searching for ST29 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting SW30 footprint position: (152209008, 89113519)
+[board_modifier.py:62]: Searching for D30 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting D30 footprint position: (157900132, 90725473)
+[board_modifier.py:95]: Getting D30 footprint position: (157900132, 90725473)
+[board_modifier.py:62]: Searching for ST30 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting SW31 footprint position: (84190978, 92995804)
+[board_modifier.py:62]: Searching for D31 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting D31 footprint position: (88313659, 97237360)
+[board_modifier.py:95]: Getting D31 footprint position: (88313659, 97237360)
+[board_modifier.py:62]: Searching for ST31 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting SW32 footprint position: (137720120, 92995804)
+[board_modifier.py:62]: Searching for D32 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:82]: Setting D32 footprint position: (143411244, 94607758)
+[board_modifier.py:95]: Getting D32 footprint position: (143411244, 94607758)
+[board_modifier.py:62]: Searching for ST32 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting SW33 footprint position: (81480000, 1140000)
+[board_modifier.py:62]: Searching for D33 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:62]: Searching for ST33 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:95]: Getting SW34 footprint position: (81480000, 7890000)
+[board_modifier.py:62]: Searching for D34 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:62]: Searching for ST34 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:62]: Searching for D1 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[key_placer.py:93]: Routing SW1 with D1
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (32415762, 37401048) with pad (42276726, 37227334) at 15.0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW1:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW1:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(32415762, 37401048), (38945419, 39150663)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW1:2
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D1:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of a6805951-0110-49a2-a45e-109d1d304688 track
+[board_modifier.py:336]: Adding track segment (B.Cu): [(38945419, 39150663), (42276726, 37227334)]
+[board_modifier.py:62]: Searching for D2 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[key_placer.py:93]: Routing SW2 with D2
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (180995189, 39678655) with pad (189448177, 34597732) at 345.0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW2:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW2:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(180995189, 39678655), (187524845, 37929038)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW2:2
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D2:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 0f4695e3-5286-45cd-ba16-12d359ea7cd5 track
+[board_modifier.py:336]: Adding track segment (B.Cu): [(187524845, 37929038), (189448177, 34597732)]
+[board_modifier.py:62]: Searching for D3 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[key_placer.py:93]: Routing SW3 with D3
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (46904650, 41283333) with pad (56765614, 41109619) at 15.0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW3:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW3:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(46904650, 41283333), (53434307, 43032948)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW3:2
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D3:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of fb594f55-e2eb-488c-8cc7-94e02cddf97f track
+[board_modifier.py:336]: Adding track segment (B.Cu): [(53434307, 43032948), (56765614, 41109619)]
+[board_modifier.py:62]: Searching for D4 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[key_placer.py:93]: Routing SW4 with D4
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (166506302, 43560940) with pad (174959290, 38480017) at 345.0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW4:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW4:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(166506302, 43560940), (173035958, 41811323)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW4:2
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D4:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 2aa7a562-f60f-45ea-8fbd-a29847cb1688 track
+[board_modifier.py:336]: Adding track segment (B.Cu): [(173035958, 41811323), (174959290, 38480017)]
+[board_modifier.py:62]: Searching for D5 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[key_placer.py:93]: Routing SW5 with D5
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (61393537, 45165619) with pad (71254501, 44991905) at 15.0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW5:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW5:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(61393537, 45165619), (67923194, 46915235)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW5:2
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D5:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of a86f71e8-1963-446f-8569-83da4dff85b3 track
+[board_modifier.py:336]: Adding track segment (B.Cu): [(67923194, 46915235), (71254501, 44991905)]
+[board_modifier.py:62]: Searching for D6 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[key_placer.py:93]: Routing SW6 with D6
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (152017414, 47443226) with pad (160470402, 42362303) at 345.0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW6:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW6:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(152017414, 47443226), (158547069, 45693609)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW6:2
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D6:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of e1238d78-4e7e-4b37-a274-66ac7cd03a9c track
+[board_modifier.py:336]: Adding track segment (B.Cu): [(158547069, 45693609), (160470402, 42362303)]
+[board_modifier.py:62]: Searching for D7 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[key_placer.py:93]: Routing SW7 with D7
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (75882424, 49047905) with pad (85743388, 48874191) at 15.0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW7:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW7:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(75882424, 49047905), (82412081, 50797520)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW7:2
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D7:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 308a7ac7-fcb6-495a-9fc0-eb59800d2cad track
+[board_modifier.py:336]: Adding track segment (B.Cu): [(82412081, 50797520), (85743388, 48874191)]
+[board_modifier.py:62]: Searching for D8 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[key_placer.py:93]: Routing SW8 with D8
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (137528527, 51325512) with pad (145981515, 46244589) at 345.0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW8:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW8:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(137528527, 51325512), (144058184, 49575894)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW8:2
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D8:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 628f2c72-d933-4e89-848f-8a2bbea77f58 track
+[board_modifier.py:336]: Adding track segment (B.Cu): [(144058184, 49575894), (145981515, 46244589)]
+[board_modifier.py:62]: Searching for D9 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[key_placer.py:93]: Routing SW9 with D9
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (28533477, 51889935) with pad (38394441, 51716221) at 15.0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW9:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW9:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(28533477, 51889935), (35063133, 53639551)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW9:2
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D9:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 2b679773-2638-4866-a97b-ac0cab1720d1 track
+[board_modifier.py:336]: Adding track segment (B.Cu): [(35063133, 53639551), (38394441, 51716221)]
+[board_modifier.py:62]: Searching for D10 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[key_placer.py:93]: Routing SW10 with D10
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (184877475, 54167542) with pad (193330463, 49086619) at 345.0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW10:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW10:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(184877475, 54167542), (191407131, 52417925)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW10:2
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D10:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 8677e99b-87ba-4b5b-977c-5c2961470bd5 track
+[board_modifier.py:336]: Adding track segment (B.Cu): [(191407131, 52417925), (193330463, 49086619)]
+[board_modifier.py:62]: Searching for D11 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[key_placer.py:93]: Routing SW11 with D11
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (90371312, 52930190) with pad (100232276, 52756476) at 15.0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW11:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW11:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(90371312, 52930190), (96900969, 54679805)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW11:2
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D11:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 5db78ebb-f239-40aa-804a-6b8a2ef9f148 track
+[board_modifier.py:336]: Adding track segment (B.Cu): [(96900969, 54679805), (100232276, 52756476)]
+[board_modifier.py:62]: Searching for D12 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[key_placer.py:93]: Routing SW12 with D12
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (123039639, 55207797) with pad (131492627, 50126874) at 345.0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW12:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW12:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(123039639, 55207797), (129569295, 53458179)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW12:2
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D12:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of e306e2db-b629-4419-a02c-85c2c931cf2a track
+[board_modifier.py:336]: Adding track segment (B.Cu): [(129569295, 53458179), (131492627, 50126874)]
+[board_modifier.py:62]: Searching for D13 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[key_placer.py:93]: Routing SW13 with D13
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (43022364, 55772221) with pad (52883328, 55598507) at 15.0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW13:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW13:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(43022364, 55772221), (49552021, 57521836)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW13:2
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D13:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 7888ced2-a11f-4240-9e0b-81e106b267bf track
+[board_modifier.py:336]: Adding track segment (B.Cu): [(49552021, 57521836), (52883328, 55598507)]
+[board_modifier.py:62]: Searching for D14 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[key_placer.py:93]: Routing SW14 with D14
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (170388587, 58049828) with pad (178841575, 52968905) at 345.0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW14:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW14:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(170388587, 58049828), (176918242, 56300211)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW14:2
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D14:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of c443fbec-7be4-4af8-8383-dbc80c9029c1 track
+[board_modifier.py:336]: Adding track segment (B.Cu): [(176918242, 56300211), (178841575, 52968905)]
+[board_modifier.py:62]: Searching for D15 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[key_placer.py:93]: Routing SW15 with D15
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (57511251, 59654506) with pad (67372215, 59480792) at 15.0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW15:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW15:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(57511251, 59654506), (64040908, 61404121)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW15:2
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D15:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 037ffdc4-b47a-4cbb-9570-2064f007107c track
+[board_modifier.py:336]: Adding track segment (B.Cu): [(64040908, 61404121), (67372215, 59480792)]
+[board_modifier.py:62]: Searching for D16 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[key_placer.py:93]: Routing SW16 with D16
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (155899700, 61932113) with pad (164352688, 56851190) at 345.0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW16:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW16:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(155899700, 61932113), (162429357, 60182495)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW16:2
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D16:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 0df008c7-b904-42ea-ad4a-f9ab90e49b54 track
+[board_modifier.py:336]: Adding track segment (B.Cu): [(162429357, 60182495), (164352688, 56851190)]
+[board_modifier.py:62]: Searching for D17 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[key_placer.py:93]: Routing SW17 with D17
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (72000139, 63536792) with pad (81861103, 63363078) at 15.0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW17:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW17:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(72000139, 63536792), (78529795, 65286407)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW17:2
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D17:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 30891ae0-877d-40f8-adfc-421fab4fb579 track
+[board_modifier.py:336]: Adding track segment (B.Cu): [(78529795, 65286407), (81861103, 63363078)]
+[board_modifier.py:62]: Searching for D18 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[key_placer.py:93]: Routing SW18 with D18
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (141410812, 65814399) with pad (149863800, 60733476) at 345.0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW18:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW18:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(141410812, 65814399), (147940468, 64064782)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW18:2
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D18:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 23544c66-900b-4b43-969b-a61e8245c327 track
+[board_modifier.py:336]: Adding track segment (B.Cu): [(147940468, 64064782), (149863800, 60733476)]
+[board_modifier.py:62]: Searching for D19 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[key_placer.py:93]: Routing SW19 with D19
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (86489026, 67419078) with pad (96349990, 67245364) at 15.0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW19:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW19:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(86489026, 67419078), (93018683, 69168693)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW19:2
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D19:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 63e1ef6e-9da4-4618-9066-9e0bd7dac944 track
+[board_modifier.py:336]: Adding track segment (B.Cu): [(93018683, 69168693), (96349990, 67245364)]
+[board_modifier.py:62]: Searching for D20 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[key_placer.py:93]: Routing SW20 with D20
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (126921925, 69696685) with pad (135374913, 64615762) at 345.0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW20:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW20:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(126921925, 69696685), (133451581, 67947068)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW20:2
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D20:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of d11aac88-847b-4c94-9f66-2b57d1747b93 track
+[board_modifier.py:336]: Adding track segment (B.Cu): [(133451581, 67947068), (135374913, 64615762)]
+[board_modifier.py:62]: Searching for D21 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[key_placer.py:93]: Routing SW21 with D21
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (53628966, 74143394) with pad (63489930, 73969680) at 15.0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW21:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW21:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(53628966, 74143394), (60158623, 75893010)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW21:2
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D21:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of ed38a09a-65da-47ea-b640-965c02fed5cb track
+[board_modifier.py:336]: Adding track segment (B.Cu): [(60158623, 75893010), (63489930, 73969680)]
+[board_modifier.py:62]: Searching for D22 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[key_placer.py:93]: Routing SW22 with D22
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (159781985, 76421001) with pad (168234973, 71340078) at 345.0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW22:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW22:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(159781985, 76421001), (166311641, 74671384)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW22:2
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D22:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of a4d988ca-6417-48dd-a27c-7fe20456a2fc track
+[board_modifier.py:336]: Adding track segment (B.Cu): [(166311641, 74671384), (168234973, 71340078)]
+[board_modifier.py:62]: Searching for D23 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[key_placer.py:93]: Routing SW23 with D23
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (68117853, 78025679) with pad (77978817, 77851965) at 15.0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW23:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW23:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(68117853, 78025679), (74647510, 79775294)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW23:2
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D23:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 05c2f867-9e67-403d-8b80-41baa7478391 track
+[board_modifier.py:336]: Adding track segment (B.Cu): [(74647510, 79775294), (77978817, 77851965)]
+[board_modifier.py:62]: Searching for D24 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[key_placer.py:93]: Routing SW24 with D24
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (145293098, 80303286) with pad (153746086, 75222363) at 345.0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW24:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW24:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(145293098, 80303286), (151822754, 78553669)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW24:2
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D24:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of d10041ff-8cd9-4fb0-a8d0-fac7ea6ce7c1 track
+[board_modifier.py:336]: Adding track segment (B.Cu): [(151822754, 78553669), (153746086, 75222363)]
+[board_modifier.py:62]: Searching for D25 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[key_placer.py:93]: Routing SW25 with D25
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (82606740, 81907965) with pad (92467704, 81734251) at 15.0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW25:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW25:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(82606740, 81907965), (89136397, 83657581)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW25:2
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D25:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of dc0537bf-0056-43b3-a522-682ec55a2b7a track
+[board_modifier.py:336]: Adding track segment (B.Cu): [(89136397, 83657581), (92467704, 81734251)]
+[board_modifier.py:62]: Searching for D26 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[key_placer.py:93]: Routing SW26 with D26
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (130804211, 84185572) with pad (139257199, 79104649) at 345.0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW26:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW26:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(130804211, 84185572), (137333867, 82435955)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW26:2
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D26:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of b1f2de8c-b40c-40cb-bfab-f47941ff52ff track
+[board_modifier.py:336]: Adding track segment (B.Cu): [(137333867, 82435955), (139257199, 79104649)]
+[board_modifier.py:62]: Searching for D27 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[key_placer.py:93]: Routing SW27 with D27
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (49746680, 88632281) with pad (59607644, 88458567) at 15.0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW27:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW27:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(49746680, 88632281), (56276336, 90381897)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW27:2
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D27:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of b0b0eabb-3b12-4139-8d0a-1448637753f7 track
+[board_modifier.py:336]: Adding track segment (B.Cu): [(56276336, 90381897), (59607644, 88458567)]
+[board_modifier.py:62]: Searching for D28 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[key_placer.py:93]: Routing SW28 with D28
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (163664271, 90909888) with pad (172117259, 85828965) at 345.0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW28:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW28:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(163664271, 90909888), (170193926, 89160271)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW28:2
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D28:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 29c16a3e-01a3-46f8-b583-df3ab5603716 track
+[board_modifier.py:336]: Adding track segment (B.Cu): [(170193926, 89160271), (172117259, 85828965)]
+[board_modifier.py:62]: Searching for D29 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[key_placer.py:93]: Routing SW29 with D29
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (64235567, 92514567) with pad (74096531, 92340853) at 15.0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW29:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW29:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(64235567, 92514567), (70765224, 94264183)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW29:2
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D29:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 5105ac7f-73de-4a6a-9c7f-01e4edbc641b track
+[board_modifier.py:336]: Adding track segment (B.Cu): [(70765224, 94264183), (74096531, 92340853)]
+[board_modifier.py:62]: Searching for D30 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[key_placer.py:93]: Routing SW30 with D30
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (149175384, 94792174) with pad (157628372, 89711251) at 345.0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW30:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW30:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(149175384, 94792174), (155705040, 93042557)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW30:2
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D30:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of fb291f8f-8b83-4a44-ab1d-ab0e6ea5589f track
+[board_modifier.py:336]: Adding track segment (B.Cu): [(155705040, 93042557), (157628372, 89711251)]
+[board_modifier.py:62]: Searching for D31 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[key_placer.py:93]: Routing SW31 with D31
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (78724455, 96396852) with pad (88585419, 96223138) at 15.0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW31:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW31:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(78724455, 96396852), (85254112, 98146467)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW31:2
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D31:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 54e2d0cd-0fd2-4dab-a466-5b2685a05b7c track
+[board_modifier.py:336]: Adding track segment (B.Cu): [(85254112, 98146467), (88585419, 96223138)]
+[board_modifier.py:62]: Searching for D32 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[key_placer.py:93]: Routing SW32 with D32
+[key_placer.py:129]: Using internal autorouter method
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (134686496, 98674459) with pad (143139484, 93593536) at 345.0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW32:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW32:2
+[board_modifier.py:336]: Adding track segment (B.Cu): [(134686496, 98674459), (141216152, 96924842)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW32:2
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D32:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 4e52bfbb-206b-4de2-952e-c45618ceaa05 track
+[board_modifier.py:336]: Adding track segment (B.Cu): [(141216152, 96924842), (143139484, 93593536)]
+[board_modifier.py:62]: Searching for D33 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:62]: Searching for D34 footprint in /Users/chriz/Documents/CAD/rattlemebonez32/pcb/rattlemebones32/rattlemebones32.kicad_pcb
+[board_modifier.py:65]: Footprint not found
+[board_modifier.py:405]: Routing at F.Cu layer
+[board_modifier.py:458]: Routing pad (35023198, 54715890) with pad (38905483, 40227003) at 15.0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW9:2
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW1:2
+[board_modifier.py:336]: Adding track segment (F.Cu): [(35023198, 54715890), (38905482, 40227002)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW1:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 9d53a20c-5591-4e39-a5b4-becd398c4885 track
+[board_modifier.py:336]: Adding track segment (F.Cu): [(38905482, 40227002), (38905483, 40227003)]
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:453]: Could not route pads when parent footprints not rotated the same
+[board_modifier.py:405]: Routing at F.Cu layer
+[board_modifier.py:458]: Routing pad (49512085, 58598176) with pad (53394371, 44109288) at 15.0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW13:2
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW3:2
+[board_modifier.py:336]: Adding track segment (F.Cu): [(49512085, 58598176), (53394370, 44109287)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW3:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 365b7896-0f69-4787-9cbe-f79b763f35fb track
+[board_modifier.py:336]: Adding track segment (F.Cu): [(53394370, 44109287), (53394371, 44109288)]
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:453]: Could not route pads when parent footprints not rotated the same
+[board_modifier.py:405]: Routing at F.Cu layer
+[board_modifier.py:458]: Routing pad (56236401, 91458236) with pad (60118687, 76969349) at 15.0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW27:2
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW21:2
+[board_modifier.py:336]: Adding track segment (F.Cu): [(56236401, 91458236), (60118686, 76969347)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW21:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of cdb68f56-c17e-4dc2-835a-e23bf4617e46 track
+[board_modifier.py:336]: Adding track segment (F.Cu): [(60118686, 76969347), (60118687, 76969349)]
+[board_modifier.py:405]: Routing at F.Cu layer
+[board_modifier.py:458]: Routing pad (60118687, 76969349) with pad (64000972, 62480461) at 15.0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW21:2
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW15:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of b9f9ea46-8780-42e7-a6a3-a15223f24682 track
+[board_modifier.py:308]: Track collide with another track: cdb68f56-c17e-4dc2-835a-e23bf4617e46
+[board_modifier.py:313]: Track collision with cdb68f56-c17e-4dc2-835a-e23bf4617e46 removed due to connection with track which leads to it
+[board_modifier.py:336]: Adding track segment (F.Cu): [(60118687, 76969349), (64000972, 62480460)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW15:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 7483df96-9097-4165-bae5-b02406ffe9ac track
+[board_modifier.py:336]: Adding track segment (F.Cu): [(64000972, 62480460), (64000972, 62480461)]
+[board_modifier.py:405]: Routing at F.Cu layer
+[board_modifier.py:458]: Routing pad (64000972, 62480461) with pad (67883258, 47991574) at 15.0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW15:2
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW5:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 25a05ebb-031d-4f40-989e-5756fde658ab track
+[board_modifier.py:308]: Track collide with another track: 7483df96-9097-4165-bae5-b02406ffe9ac
+[board_modifier.py:313]: Track collision with 7483df96-9097-4165-bae5-b02406ffe9ac removed due to connection with track which leads to it
+[board_modifier.py:336]: Adding track segment (F.Cu): [(64000972, 62480461), (67883257, 47991573)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW5:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of bf8acc93-e000-47c0-8d8e-f864ff229434 track
+[board_modifier.py:336]: Adding track segment (F.Cu): [(67883257, 47991573), (67883258, 47991574)]
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:453]: Could not route pads when parent footprints not rotated the same
+[board_modifier.py:405]: Routing at F.Cu layer
+[board_modifier.py:458]: Routing pad (70725288, 95340522) with pad (74607574, 80851634) at 15.0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW29:2
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW23:2
+[board_modifier.py:336]: Adding track segment (F.Cu): [(70725288, 95340522), (74607573, 80851633)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW23:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 3c50440a-5bdb-477e-8302-f5844191c644 track
+[board_modifier.py:336]: Adding track segment (F.Cu): [(74607573, 80851633), (74607574, 80851634)]
+[board_modifier.py:405]: Routing at F.Cu layer
+[board_modifier.py:458]: Routing pad (74607574, 80851634) with pad (78489860, 66362747) at 15.0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW23:2
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW17:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 4e65b86e-e3fe-4864-80ea-c9ef941e6329 track
+[board_modifier.py:308]: Track collide with another track: 3c50440a-5bdb-477e-8302-f5844191c644
+[board_modifier.py:313]: Track collision with 3c50440a-5bdb-477e-8302-f5844191c644 removed due to connection with track which leads to it
+[board_modifier.py:336]: Adding track segment (F.Cu): [(74607574, 80851634), (78489859, 66362746)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW17:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 7f7aebb1-8874-4cb5-9b71-ce37a9c6c24f track
+[board_modifier.py:336]: Adding track segment (F.Cu): [(78489859, 66362746), (78489860, 66362747)]
+[board_modifier.py:405]: Routing at F.Cu layer
+[board_modifier.py:458]: Routing pad (78489860, 66362747) with pad (82372145, 51873860) at 15.0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW17:2
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW7:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 24856595-c2c3-479a-ba97-8ca14766326e track
+[board_modifier.py:308]: Track collide with another track: 7f7aebb1-8874-4cb5-9b71-ce37a9c6c24f
+[board_modifier.py:313]: Track collision with 7f7aebb1-8874-4cb5-9b71-ce37a9c6c24f removed due to connection with track which leads to it
+[board_modifier.py:336]: Adding track segment (F.Cu): [(78489860, 66362747), (82372144, 51873859)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW7:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 775ed4b9-a43f-496b-b379-c193917e2fb4 track
+[board_modifier.py:336]: Adding track segment (F.Cu): [(82372144, 51873859), (82372145, 51873860)]
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:453]: Could not route pads when parent footprints not rotated the same
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:453]: Could not route pads when parent footprints not rotated the same
+[board_modifier.py:405]: Routing at F.Cu layer
+[board_modifier.py:458]: Routing pad (130072880, 54410286) with pad (133955166, 68899174) at 345.0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW20:2
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW12:2
+[board_modifier.py:336]: Adding track segment (F.Cu): [(130072880, 54410286), (133955164, 68899173)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW20:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of eff09488-6936-4f73-a280-b88f0f38a76f track
+[board_modifier.py:336]: Adding track segment (F.Cu): [(133955164, 68899173), (133955166, 68899174)]
+[board_modifier.py:405]: Routing at F.Cu layer
+[board_modifier.py:458]: Routing pad (133955166, 68899174) with pad (137837452, 83388061) at 345.0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW26:2
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW20:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of a6924256-3552-4c7d-a07f-89a8314e3966 track
+[board_modifier.py:308]: Track collide with another track: eff09488-6936-4f73-a280-b88f0f38a76f
+[board_modifier.py:313]: Track collision with eff09488-6936-4f73-a280-b88f0f38a76f removed due to connection with track which leads to it
+[board_modifier.py:336]: Adding track segment (F.Cu): [(133955166, 68899174), (137837450, 83388059)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW26:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of e989ccdd-0028-4a6a-be2e-d85e447c8800 track
+[board_modifier.py:336]: Adding track segment (F.Cu): [(137837450, 83388059), (137837452, 83388061)]
+[board_modifier.py:405]: Routing at F.Cu layer
+[board_modifier.py:458]: Routing pad (137837452, 83388061) with pad (141719737, 97876948) at 345.0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW32:2
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW26:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of b14e19b2-b5f5-4fd5-8a6b-8fdb3d574e47 track
+[board_modifier.py:308]: Track collide with another track: e989ccdd-0028-4a6a-be2e-d85e447c8800
+[board_modifier.py:313]: Track collision with e989ccdd-0028-4a6a-be2e-d85e447c8800 removed due to connection with track which leads to it
+[board_modifier.py:336]: Adding track segment (F.Cu): [(137837452, 83388061), (141719736, 97876946)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW32:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 9d18197d-963c-4097-91b4-d77a3be2665e track
+[board_modifier.py:336]: Adding track segment (F.Cu): [(141719736, 97876946), (141719737, 97876948)]
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:453]: Could not route pads when parent footprints not rotated the same
+[board_modifier.py:405]: Routing at F.Cu layer
+[board_modifier.py:458]: Routing pad (144561768, 50528001) with pad (148444053, 65016888) at 345.0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW18:2
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW8:2
+[board_modifier.py:336]: Adding track segment (F.Cu): [(144561768, 50528001), (148444052, 65016886)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW18:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 4a4690ee-2922-4d0d-a3e9-d5f7125b3889 track
+[board_modifier.py:336]: Adding track segment (F.Cu): [(148444052, 65016886), (148444053, 65016888)]
+[board_modifier.py:405]: Routing at F.Cu layer
+[board_modifier.py:458]: Routing pad (148444053, 65016888) with pad (152326339, 79505775) at 345.0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW24:2
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW18:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of d71f3cd6-70e8-428d-8466-c04919c32493 track
+[board_modifier.py:308]: Track collide with another track: 4a4690ee-2922-4d0d-a3e9-d5f7125b3889
+[board_modifier.py:313]: Track collision with 4a4690ee-2922-4d0d-a3e9-d5f7125b3889 removed due to connection with track which leads to it
+[board_modifier.py:336]: Adding track segment (F.Cu): [(148444053, 65016888), (152326337, 79505774)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW24:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 522fef23-1bb6-4a7c-8381-950420635b83 track
+[board_modifier.py:336]: Adding track segment (F.Cu): [(152326337, 79505774), (152326339, 79505775)]
+[board_modifier.py:405]: Routing at F.Cu layer
+[board_modifier.py:458]: Routing pad (152326339, 79505775) with pad (156208625, 93994663) at 345.0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW30:2
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW24:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 8aad42e0-7f9f-4615-9e5d-4181c75291bd track
+[board_modifier.py:308]: Track collide with another track: 522fef23-1bb6-4a7c-8381-950420635b83
+[board_modifier.py:313]: Track collision with 522fef23-1bb6-4a7c-8381-950420635b83 removed due to connection with track which leads to it
+[board_modifier.py:336]: Adding track segment (F.Cu): [(152326339, 79505775), (156208624, 93994662)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW30:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 953b6755-e3ad-44da-b20d-bb416c2fcf92 track
+[board_modifier.py:336]: Adding track segment (F.Cu): [(156208624, 93994662), (156208625, 93994663)]
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:453]: Could not route pads when parent footprints not rotated the same
+[board_modifier.py:405]: Routing at F.Cu layer
+[board_modifier.py:458]: Routing pad (159050655, 46645715) with pad (162932941, 61134602) at 345.0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW16:2
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW6:2
+[board_modifier.py:336]: Adding track segment (F.Cu): [(159050655, 46645715), (162932939, 61134601)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW16:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 98f4d2d1-5914-4950-9d99-1fd51c04f11d track
+[board_modifier.py:336]: Adding track segment (F.Cu): [(162932939, 61134601), (162932941, 61134602)]
+[board_modifier.py:405]: Routing at F.Cu layer
+[board_modifier.py:458]: Routing pad (162932941, 61134602) with pad (166815226, 75623490) at 345.0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW22:2
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW16:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 33a20678-a3d9-4bee-a1c9-dbd50f7e4303 track
+[board_modifier.py:308]: Track collide with another track: 98f4d2d1-5914-4950-9d99-1fd51c04f11d
+[board_modifier.py:313]: Track collision with 98f4d2d1-5914-4950-9d99-1fd51c04f11d removed due to connection with track which leads to it
+[board_modifier.py:336]: Adding track segment (F.Cu): [(162932941, 61134602), (166815226, 75623488)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW22:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of ecdd3bd0-0ac2-4550-94f3-b3568e52a748 track
+[board_modifier.py:336]: Adding track segment (F.Cu): [(166815226, 75623488), (166815226, 75623490)]
+[board_modifier.py:405]: Routing at F.Cu layer
+[board_modifier.py:458]: Routing pad (166815226, 75623490) with pad (170697512, 90112377) at 345.0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW28:2
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW22:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of fc87dc35-0491-498a-870e-1036334d17b6 track
+[board_modifier.py:308]: Track collide with another track: ecdd3bd0-0ac2-4550-94f3-b3568e52a748
+[board_modifier.py:313]: Track collision with ecdd3bd0-0ac2-4550-94f3-b3568e52a748 removed due to connection with track which leads to it
+[board_modifier.py:336]: Adding track segment (F.Cu): [(166815226, 75623490), (170697511, 90112376)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW28:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 252ed945-8cbc-4a07-b4e0-d5c1b1a54152 track
+[board_modifier.py:336]: Adding track segment (F.Cu): [(170697511, 90112376), (170697512, 90112377)]
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:453]: Could not route pads when parent footprints not rotated the same
+[board_modifier.py:405]: Routing at F.Cu layer
+[board_modifier.py:458]: Routing pad (173539543, 42763429) with pad (177421828, 57252317) at 345.0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW14:2
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW4:2
+[board_modifier.py:336]: Adding track segment (F.Cu): [(173539543, 42763429), (177421827, 57252315)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW14:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 4e833410-1b97-4e4c-b018-da49f697a716 track
+[board_modifier.py:336]: Adding track segment (F.Cu): [(177421827, 57252315), (177421828, 57252317)]
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:453]: Could not route pads when parent footprints not rotated the same
+[board_modifier.py:405]: Routing at F.Cu layer
+[board_modifier.py:458]: Routing pad (188028430, 38881144) with pad (191910716, 53370031) at 345.0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW10:2
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW2:2
+[board_modifier.py:336]: Adding track segment (F.Cu): [(188028430, 38881144), (191910715, 53370030)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW10:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 77e2cb1d-a44d-4516-aad1-bbad7f001dcc track
+[board_modifier.py:336]: Adding track segment (F.Cu): [(191910715, 53370030), (191910716, 53370031)]
+[board_modifier.py:405]: Routing at F.Cu layer
+[board_modifier.py:458]: Routing pad (85214176, 99222807) with pad (89096461, 84733920) at 15.0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW31:2
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW25:2
+[board_modifier.py:336]: Adding track segment (F.Cu): [(85214176, 99222807), (89096460, 84733920)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW25:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 83efbf74-134f-455c-ab8d-8425380462ff track
+[board_modifier.py:336]: Adding track segment (F.Cu): [(89096460, 84733920), (89096461, 84733920)]
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:453]: Could not route pads when parent footprints not rotated the same
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:453]: Could not route pads when parent footprints not rotated the same
+[board_modifier.py:405]: Routing at F.Cu layer
+[board_modifier.py:458]: Routing pad (92978747, 70245033) with pad (96861033, 55756145) at 15.0 degree angle
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW19:2
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW11:2
+[board_modifier.py:336]: Adding track segment (F.Cu): [(92978747, 70245033), (96861032, 55756144)]
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad SW11:2
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of c677ece6-c788-4d96-b428-dfce9409c178 track
+[board_modifier.py:336]: Adding track segment (F.Cu): [(96861032, 55756144), (96861033, 55756145)]
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (37850921, 53744665) with pad (52339808, 57626951) at 285.0 degree angle
+[board_modifier.py:264]: Track collide with pad SW13:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D13:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D9:1
+[board_modifier.py:308]: Track collide with another track: 0146b2c7-fc23-43f5-91d6-f81ff1209293
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D9:1
+[board_modifier.py:336]: Adding track segment (B.Cu): [(37850921, 53744665), (37850919, 53744665)]
+[board_modifier.py:264]: Track collide with pad SW13:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D13:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D9:1
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 33d21ee2-b68b-4bce-ab92-81094d52254b track
+[board_modifier.py:308]: Track collide with another track: 0146b2c7-fc23-43f5-91d6-f81ff1209293
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (52339808, 57626951) with pad (66828695, 61509236) at 285.0 degree angle
+[board_modifier.py:264]: Track collide with pad SW15:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D15:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D13:1
+[board_modifier.py:308]: Track collide with another track: 1fcea547-30a3-4382-ab6a-5e7ab558f206
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D13:1
+[board_modifier.py:336]: Adding track segment (B.Cu): [(52339808, 57626951), (52339808, 57626949)]
+[board_modifier.py:264]: Track collide with pad SW15:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D15:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D13:1
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of a5740e5d-33c4-4d9d-ac46-f410ad1ebe1b track
+[board_modifier.py:308]: Track collide with another track: 1fcea547-30a3-4382-ab6a-5e7ab558f206
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (66828695, 61509236) with pad (81317583, 65391522) at 285.0 degree angle
+[board_modifier.py:264]: Track collide with pad SW17:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D17:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D15:1
+[board_modifier.py:308]: Track collide with another track: e643bd3e-4316-4336-a53c-c9c0fcf907c9
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D15:1
+[board_modifier.py:336]: Adding track segment (B.Cu): [(66828695, 61509236), (66828694, 61509235)]
+[board_modifier.py:264]: Track collide with pad SW17:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D17:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D15:1
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 9b60747e-092e-412d-a89a-4f5aff393ad5 track
+[board_modifier.py:308]: Track collide with another track: e643bd3e-4316-4336-a53c-c9c0fcf907c9
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:453]: Could not route pads when parent footprints not rotated the same
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:453]: Could not route pads when parent footprints not rotated the same
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:453]: Could not route pads when parent footprints not rotated the same
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (135918433, 66644206) with pad (150407320, 62761920) at 255.0 degree angle
+[board_modifier.py:264]: Track collide with pad SW18:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D20:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D18:1
+[board_modifier.py:308]: Track collide with another track: 3ffc4df2-6116-47ad-a781-a92742863659
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D20:1
+[board_modifier.py:336]: Adding track segment (B.Cu): [(135918433, 66644206), (135918431, 66644205)]
+[board_modifier.py:264]: Track collide with pad SW18:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D20:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D18:1
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 4a59841d-bf8d-466b-850e-4ed6c394a329 track
+[board_modifier.py:308]: Track collide with another track: 3ffc4df2-6116-47ad-a781-a92742863659
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (150407320, 62761920) with pad (164896208, 58879634) at 255.0 degree angle
+[board_modifier.py:264]: Track collide with pad SW16:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D18:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D16:1
+[board_modifier.py:308]: Track collide with another track: 99286690-1211-477e-8b01-9f5a73d0c203
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D18:1
+[board_modifier.py:336]: Adding track segment (B.Cu): [(150407320, 62761920), (150407319, 62761919)]
+[board_modifier.py:264]: Track collide with pad SW16:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D18:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D16:1
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of ddf4afe8-973b-4bc6-b7ff-7c43ab832ade track
+[board_modifier.py:308]: Track collide with another track: 99286690-1211-477e-8b01-9f5a73d0c203
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (164896208, 58879634) with pad (179385095, 54997349) at 255.0 degree angle
+[board_modifier.py:264]: Track collide with pad SW14:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D16:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D14:1
+[board_modifier.py:308]: Track collide with another track: 20d8911c-c840-4c95-8208-8df2644f6da9
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D16:1
+[board_modifier.py:336]: Adding track segment (B.Cu): [(164896208, 58879634), (164896207, 58879633)]
+[board_modifier.py:264]: Track collide with pad SW14:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D16:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D14:1
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of c861aa20-39f9-42ac-b042-ce5282aea105 track
+[board_modifier.py:308]: Track collide with another track: 20d8911c-c840-4c95-8208-8df2644f6da9
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (179385095, 54997349) with pad (193873983, 51115063) at 255.0 degree angle
+[board_modifier.py:264]: Track collide with pad SW10:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D14:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D10:1
+[board_modifier.py:308]: Track collide with another track: 67ea607e-b053-4715-ab2c-456aee94de10
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D14:1
+[board_modifier.py:336]: Adding track segment (B.Cu): [(179385095, 54997349), (179385094, 54997348)]
+[board_modifier.py:264]: Track collide with pad SW10:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D14:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D10:1
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 7e4d5905-0198-4f8d-aa7a-4a9607c246da track
+[board_modifier.py:308]: Track collide with another track: 67ea607e-b053-4715-ab2c-456aee94de10
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (41733206, 39255778) with pad (56222094, 43138063) at 285.0 degree angle
+[board_modifier.py:264]: Track collide with pad SW3:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D3:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D1:1
+[board_modifier.py:308]: Track collide with another track: 6ad8d418-b5dc-4289-9b7c-def292406ece
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D1:1
+[board_modifier.py:336]: Adding track segment (B.Cu): [(41733206, 39255778), (41733206, 39255776)]
+[board_modifier.py:264]: Track collide with pad SW3:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D3:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D1:1
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of dc198c53-0772-4506-a127-226366587761 track
+[board_modifier.py:308]: Track collide with another track: 6ad8d418-b5dc-4289-9b7c-def292406ece
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (56222094, 43138063) with pad (70710981, 47020349) at 285.0 degree angle
+[board_modifier.py:264]: Track collide with pad SW5:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D5:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D3:1
+[board_modifier.py:308]: Track collide with another track: 58c23642-8090-4ea9-a606-a9e75ec6bab3
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D3:1
+[board_modifier.py:336]: Adding track segment (B.Cu): [(56222094, 43138063), (56222093, 43138062)]
+[board_modifier.py:264]: Track collide with pad SW5:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D5:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D3:1
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 66e79f7f-f1aa-4237-bd8a-4e2e01c22947 track
+[board_modifier.py:308]: Track collide with another track: 58c23642-8090-4ea9-a606-a9e75ec6bab3
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (70710981, 47020349) with pad (85199868, 50902635) at 285.0 degree angle
+[board_modifier.py:264]: Track collide with pad SW7:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D7:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D5:1
+[board_modifier.py:308]: Track collide with another track: 5c14db07-6bf5-4c71-8689-9ea2744aeaba
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D5:1
+[board_modifier.py:336]: Adding track segment (B.Cu): [(70710981, 47020349), (70710979, 47020348)]
+[board_modifier.py:264]: Track collide with pad SW7:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D7:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D5:1
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 72ad73dc-034d-41ce-b6fc-e1c5076b614a track
+[board_modifier.py:308]: Track collide with another track: 5c14db07-6bf5-4c71-8689-9ea2744aeaba
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:453]: Could not route pads when parent footprints not rotated the same
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:453]: Could not route pads when parent footprints not rotated the same
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:453]: Could not route pads when parent footprints not rotated the same
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (132036147, 52155318) with pad (146525035, 48273033) at 255.0 degree angle
+[board_modifier.py:264]: Track collide with pad SW8:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D12:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D8:1
+[board_modifier.py:308]: Track collide with another track: adc116b2-3d8f-4284-9923-c8925d0c1155
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D12:1
+[board_modifier.py:336]: Adding track segment (B.Cu): [(132036147, 52155318), (132036146, 52155318)]
+[board_modifier.py:264]: Track collide with pad SW8:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D12:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D8:1
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of cea50dfc-c881-4aa8-a0ac-44e5872ceb6f track
+[board_modifier.py:308]: Track collide with another track: adc116b2-3d8f-4284-9923-c8925d0c1155
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (146525035, 48273033) with pad (161013922, 44390747) at 255.0 degree angle
+[board_modifier.py:264]: Track collide with pad SW6:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D8:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D6:1
+[board_modifier.py:308]: Track collide with another track: 2ebfa6d3-23dd-4dd7-b298-33372f009a37
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D8:1
+[board_modifier.py:336]: Adding track segment (B.Cu): [(146525035, 48273033), (146525034, 48273032)]
+[board_modifier.py:264]: Track collide with pad SW6:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D8:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D6:1
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 1acf79a9-d2ee-48c5-8f13-61c7ba610e2d track
+[board_modifier.py:308]: Track collide with another track: 2ebfa6d3-23dd-4dd7-b298-33372f009a37
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (161013922, 44390747) with pad (175502810, 40508461) at 255.0 degree angle
+[board_modifier.py:264]: Track collide with pad SW4:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D6:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D4:1
+[board_modifier.py:308]: Track collide with another track: 243ebc94-dbf9-47c0-9665-bd2c3025b6d4
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D6:1
+[board_modifier.py:336]: Adding track segment (B.Cu): [(161013922, 44390747), (161013920, 44390746)]
+[board_modifier.py:264]: Track collide with pad SW4:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D6:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D4:1
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 3d3c9443-1a8c-48fb-b633-bb1a15bcaa33 track
+[board_modifier.py:308]: Track collide with another track: 243ebc94-dbf9-47c0-9665-bd2c3025b6d4
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (175502810, 40508461) with pad (189991697, 36626176) at 255.0 degree angle
+[board_modifier.py:264]: Track collide with pad SW2:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D4:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D2:1
+[board_modifier.py:308]: Track collide with another track: ac357adf-69d8-4aef-80c3-99d024576e33
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D4:1
+[board_modifier.py:336]: Adding track segment (B.Cu): [(175502810, 40508461), (175502809, 40508460)]
+[board_modifier.py:264]: Track collide with pad SW2:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D4:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D2:1
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of c15b7ced-3b6d-4e47-a8c9-cebed8561dd4 track
+[board_modifier.py:308]: Track collide with another track: ac357adf-69d8-4aef-80c3-99d024576e33
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (59064124, 90487011) with pad (73553011, 94369297) at 285.0 degree angle
+[board_modifier.py:264]: Track collide with pad SW29:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D29:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D27:1
+[board_modifier.py:308]: Track collide with another track: 39516ea1-9bfc-4c4d-8176-c03e2ba1bf58
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D27:1
+[board_modifier.py:336]: Adding track segment (B.Cu): [(59064124, 90487011), (59064122, 90487010)]
+[board_modifier.py:264]: Track collide with pad SW29:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D29:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D27:1
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 3ebeb2a0-a414-46ab-ac0a-c4a75e40cc4f track
+[board_modifier.py:308]: Track collide with another track: 39516ea1-9bfc-4c4d-8176-c03e2ba1bf58
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (73553011, 94369297) with pad (88041899, 98251582) at 285.0 degree angle
+[board_modifier.py:264]: Track collide with pad SW31:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D31:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D29:1
+[board_modifier.py:308]: Track collide with another track: d3619259-2639-4c36-9653-80a26f9113ea
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D29:1
+[board_modifier.py:336]: Adding track segment (B.Cu): [(73553011, 94369297), (73553011, 94369296)]
+[board_modifier.py:264]: Track collide with pad SW31:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D31:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D29:1
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 94203dec-f9a5-478a-88e7-0e1ff29d8fed track
+[board_modifier.py:308]: Track collide with another track: d3619259-2639-4c36-9653-80a26f9113ea
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:453]: Could not route pads when parent footprints not rotated the same
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:453]: Could not route pads when parent footprints not rotated the same
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (143683004, 95621980) with pad (158171892, 91739695) at 255.0 degree angle
+[board_modifier.py:264]: Track collide with pad SW30:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D32:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D30:1
+[board_modifier.py:308]: Track collide with another track: ae666fe1-80a6-464a-b02c-3187d2847a60
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D32:1
+[board_modifier.py:336]: Adding track segment (B.Cu): [(143683004, 95621980), (143683002, 95621980)]
+[board_modifier.py:264]: Track collide with pad SW30:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D32:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D30:1
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 5acb2ea0-4246-4714-84af-a41026c1405d track
+[board_modifier.py:308]: Track collide with another track: ae666fe1-80a6-464a-b02c-3187d2847a60
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (158171892, 91739695) with pad (172660779, 87857409) at 255.0 degree angle
+[board_modifier.py:264]: Track collide with pad SW28:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D30:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D28:1
+[board_modifier.py:308]: Track collide with another track: 8d861a4d-a31b-433c-90d7-bd858f3f888e
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D30:1
+[board_modifier.py:336]: Adding track segment (B.Cu): [(158171892, 91739695), (158171891, 91739694)]
+[board_modifier.py:264]: Track collide with pad SW28:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D30:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D28:1
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 74b96feb-d6a3-432c-b3b4-51ad881451bb track
+[board_modifier.py:308]: Track collide with another track: 8d861a4d-a31b-433c-90d7-bd858f3f888e
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (62946410, 75998124) with pad (77435297, 79880409) at 285.0 degree angle
+[board_modifier.py:264]: Track collide with pad SW23:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D23:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D21:1
+[board_modifier.py:308]: Track collide with another track: 2560a909-d8c0-4918-a9cd-bb472d919f8e
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D21:1
+[board_modifier.py:336]: Adding track segment (B.Cu): [(62946410, 75998124), (62946409, 75998122)]
+[board_modifier.py:264]: Track collide with pad SW23:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D23:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D21:1
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 54283ce9-d1c6-46c5-bf43-7e3790252c12 track
+[board_modifier.py:308]: Track collide with another track: 2560a909-d8c0-4918-a9cd-bb472d919f8e
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:453]: Could not route pads when parent footprints not rotated the same
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:453]: Could not route pads when parent footprints not rotated the same
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:453]: Could not route pads when parent footprints not rotated the same
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (139800719, 81133093) with pad (154289606, 77250807) at 255.0 degree angle
+[board_modifier.py:264]: Track collide with pad SW24:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D26:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D24:1
+[board_modifier.py:308]: Track collide with another track: 750718bc-fedd-4227-96af-4c78490d7bdc
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D26:1
+[board_modifier.py:336]: Adding track segment (B.Cu): [(139800719, 81133093), (139800718, 81133092)]
+[board_modifier.py:264]: Track collide with pad SW24:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D26:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D24:1
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of f397a6ba-2b8d-4cbb-8737-71887a95ddb2 track
+[board_modifier.py:308]: Track collide with another track: 750718bc-fedd-4227-96af-4c78490d7bdc
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:405]: Routing at B.Cu layer
+[board_modifier.py:458]: Routing pad (154289606, 77250807) with pad (168778493, 73368522) at 255.0 degree angle
+[board_modifier.py:264]: Track collide with pad SW22:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D24:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D22:1
+[board_modifier.py:308]: Track collide with another track: 41e800e0-f293-4047-9f02-b4b2688a1584
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D24:1
+[board_modifier.py:336]: Adding track segment (B.Cu): [(154289606, 77250807), (154289605, 77250806)]
+[board_modifier.py:264]: Track collide with pad SW22:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D24:1
+[board_modifier.py:254]: Track collision ignored, track starts or ends in pad D22:1
+[board_modifier.py:285]: Track collision ignored, track starts or ends at the end of 0dc012d9-4edd-4020-be8a-4644145bd627 track
+[board_modifier.py:308]: Track collide with another track: 41e800e0-f293-4047-9f02-b4b2688a1584
+[board_modifier.py:342]: Could not add track segment due to detected collision
+[key_placer.py:149]: Removing dangling tracks
+[key_placer.py:161]: Removing 0dc012d9-4edd-4020-be8a-4644145bd627
+[key_placer.py:161]: Removing f397a6ba-2b8d-4cbb-8737-71887a95ddb2
+[key_placer.py:161]: Removing 54283ce9-d1c6-46c5-bf43-7e3790252c12
+[key_placer.py:161]: Removing 74b96feb-d6a3-432c-b3b4-51ad881451bb
+[key_placer.py:161]: Removing 5acb2ea0-4246-4714-84af-a41026c1405d
+[key_placer.py:161]: Removing 94203dec-f9a5-478a-88e7-0e1ff29d8fed
+[key_placer.py:161]: Removing 3ebeb2a0-a414-46ab-ac0a-c4a75e40cc4f
+[key_placer.py:161]: Removing c15b7ced-3b6d-4e47-a8c9-cebed8561dd4
+[key_placer.py:161]: Removing 3d3c9443-1a8c-48fb-b633-bb1a15bcaa33
+[key_placer.py:161]: Removing 1acf79a9-d2ee-48c5-8f13-61c7ba610e2d
+[key_placer.py:161]: Removing cea50dfc-c881-4aa8-a0ac-44e5872ceb6f
+[key_placer.py:161]: Removing 72ad73dc-034d-41ce-b6fc-e1c5076b614a
+[key_placer.py:161]: Removing 66e79f7f-f1aa-4237-bd8a-4e2e01c22947
+[key_placer.py:161]: Removing dc198c53-0772-4506-a127-226366587761
+[key_placer.py:161]: Removing 7e4d5905-0198-4f8d-aa7a-4a9607c246da
+[key_placer.py:161]: Removing c861aa20-39f9-42ac-b042-ce5282aea105
+[key_placer.py:161]: Removing ddf4afe8-973b-4bc6-b7ff-7c43ab832ade
+[key_placer.py:161]: Removing 4a59841d-bf8d-466b-850e-4ed6c394a329
+[key_placer.py:161]: Removing 9b60747e-092e-412d-a89a-4f5aff393ad5
+[key_placer.py:161]: Removing a5740e5d-33c4-4d9d-ac46-f410ad1ebe1b
+[key_placer.py:161]: Removing 33d21ee2-b68b-4bce-ab92-81094d52254b
+[key_placer.py:149]: Removing dangling tracks
