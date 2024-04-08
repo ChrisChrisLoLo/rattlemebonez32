@@ -22,7 +22,7 @@ The case comes in two parts, the top section and the bottom section.
 ## PCB
 You can find the PCB source files in the `pcb` folder. The BOM files can be found in this folder.
 
-![rattlemebonez pcb](https://raw.githubusercontent.com/ChrisChrisLoLo/rattlemebonez32/main/images/PXL_20240225_2PXL_20240408_00331990024453990.jpg)
+![rattlemebonez pcb](https://raw.githubusercontent.com/ChrisChrisLoLo/rattlemebonez32/main/images/PXL_20240408_003600043.jpg)
 
 ## Directory Structure
 - `case`
